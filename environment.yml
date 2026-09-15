@@ -1,12 +1,9 @@
-name: example-environment
+name: kofamscan - decoder
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.6
-  - numpy
+  - python=3.7
   - pip
   - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-   
+    - KEGGDecoder
